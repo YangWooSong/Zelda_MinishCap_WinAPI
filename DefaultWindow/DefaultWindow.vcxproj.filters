@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{8473f2d0-958e-4a8e-8e35-5cda81fea701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{bf5f56f5-1c40-4447-9064-6ff7a6e3de81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{ff634392-fe40-4b17-a25a-a139a673d72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design">
+      <UniqueIdentifier>{7fc2f1a5-bff8-4bfc-a94e-331a623717c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{06f3a2e2-3cea-4f91-abd4-9cce4e512ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Animation">
+      <UniqueIdentifier>{01f7c005-7ad3-4683-94c4-a960e9295a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster">
+      <UniqueIdentifier>{80f02bca-258e-4d42-94dd-a4ec192691a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item">
+      <UniqueIdentifier>{77614765-c464-4fbc-a5ef-87389b9abceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Scene_House">
+      <UniqueIdentifier>{183fa3a7-dfd2-4122-a308-7890f1ecad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Scene_Logo">
+      <UniqueIdentifier>{a162fc6d-2709-474f-b52a-ce2f0febaf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Scene_Forest">
+      <UniqueIdentifier>{d3f78bb8-18bb-44c5-a879-f4f9d614b8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Animation\00. Player">
+      <UniqueIdentifier>{734b775d-32af-4572-9535-a520b57e4082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\00. AbstractFactory">
+      <UniqueIdentifier>{2c28e3f1-3deb-4bb2-93bb-5aae19ba6a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\01. CollisionMgr">
+      <UniqueIdentifier>{ec8fffef-4052-4d68-9e9c-73f4925d452b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\02. ObjMgr">
+      <UniqueIdentifier>{1323a0de-89cf-4e33-ad59-f174dbc8b469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\03. KeyMgr">
+      <UniqueIdentifier>{ce7783b4-9c5f-4e1d-a0d9-ddcef3556ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\04. BmpMgr">
+      <UniqueIdentifier>{1ceebc15-5f6d-4d83-a9dc-673e6e104eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\05. SceneMgr">
+      <UniqueIdentifier>{a8c1e9ca-f53a-49fb-810b-71195346472c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\04. BmpMgr\00. MyBmp">
+      <UniqueIdentifier>{ceb5db41-87b4-4f79-a9c5-0c22eb5dc430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Wall">
+      <UniqueIdentifier>{f44eadf3-1ef0-4b01-88d2-2d01d9257b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Collider">
+      <UniqueIdentifier>{d1d51af9-b636-41c8-ba3c-7164f0998649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Camera">
+      <UniqueIdentifier>{ebc76456-1ed6-488b-93f4-75eaddf7c261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Door">
+      <UniqueIdentifier>{90b398f7-a4e6-4af3-8383-eb21f34a6a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Weapon">
+      <UniqueIdentifier>{f82dab6e-6627-48a3-89f9-02897d9fc357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Ceilling">
+      <UniqueIdentifier>{3d24561d-9b9e-4bde-8154-90f924745b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. ItemCollider">
+      <UniqueIdentifier>{bdb39c51-84c8-4886-8c8a-8526f9255455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI">
+      <UniqueIdentifier>{9e256717-e06f-48bc-a33b-25ff92bad123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\Inventory">
+      <UniqueIdentifier>{7cd4891d-7d03-44ac-8632-7718f0413090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\Inventory\Slot">
+      <UniqueIdentifier>{429ca1e7-3ec9-4591-8b22-122048949159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\Inventory\Cursor">
+      <UniqueIdentifier>{cecbf968-1350-4c75-bfeb-c44382405852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI">
+      <UniqueIdentifier>{29d623ba-d709-43f0-9313-428cfc6d96b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\AButton">
+      <UniqueIdentifier>{57fc5ee2-0de5-41b5-9ff0-fa01807b9a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\BButton">
+      <UniqueIdentifier>{99557139-4caf-4151-bd5e-9072c5a851ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\UIWeapon">
+      <UniqueIdentifier>{3147cc2e-568b-4303-98de-fe9e8ae606b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\UI_Hp">
+      <UniqueIdentifier>{4406eee7-bfda-4e66-9ecd-0e95ddeb2365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss">
+      <UniqueIdentifier>{bee58dbd-6841-4f01-8485-630fadb82a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss\00.EyeBall">
+      <UniqueIdentifier>{615140c0-2f64-443a-9141-748e5039f4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss\01. LaserBall">
+      <UniqueIdentifier>{4f27ad1e-3711-47a5-94c8-ec0ee03d2571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss\01. LaserBall\00. Laser">
+      <UniqueIdentifier>{6a09b899-59a9-4572-94d2-5c76ccd51052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss\01. LaserBall\01. EyeShield">
+      <UniqueIdentifier>{dd1cd407-c373-490f-9cf0-6056ae1591df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\06. SoundMgr">
+      <UniqueIdentifier>{fb2c2e01-8965-486b-a510-ec80739a15dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Effect">
+      <UniqueIdentifier>{0f53ed7b-83b6-4d92-8d1e-8aba50045981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Boss\02. FireBall">
+      <UniqueIdentifier>{f019a4b7-6659-4382-986f-4ca70636e222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\09. MapObject">
+      <UniqueIdentifier>{3a2380f2-918e-46e8-a348-9af8c0d2cf10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Button">
+      <UniqueIdentifier>{afe2a0b6-65fd-4520-b289-0e7821534127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Key">
+      <UniqueIdentifier>{4913961d-ab64-4b7c-af2f-9408cbc1dbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\KeyRock">
+      <UniqueIdentifier>{1c28861c-a7eb-4a52-ab44-9db094d47841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\CopyTile">
+      <UniqueIdentifier>{b0fed9f4-2343-4198-989b-a3d1cac78ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\CopyPlayer">
+      <UniqueIdentifier>{44267ede-4194-4394-8374-50acd854131a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\MovingFloor">
+      <UniqueIdentifier>{7b54d606-b95f-4261-b4ff-e31ff9c0eadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\MovingRock">
+      <UniqueIdentifier>{4b649f83-8612-405f-92c0-0fc1f53910d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Road">
+      <UniqueIdentifier>{ff435d51-28a2-4dce-934e-ebf1054311b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\01. Dungeon_Monster">
+      <UniqueIdentifier>{52087719-caeb-420b-a766-3271283cdfe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player\PlayerBullet">
+      <UniqueIdentifier>{eb0d9bec-5b1f-4d19-afa4-3c6a27fd4fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\Brazier">
+      <UniqueIdentifier>{d8ceb5db-50dd-4b7a-9c47-02bdb2b15ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\DungeonDoor">
+      <UniqueIdentifier>{1d6eb412-3814-4378-9d1e-744108a8548f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\02. ShieldMonster">
+      <UniqueIdentifier>{148bdedb-43a1-444b-8a7b-855e0766cea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\02. ShieldMonster\ShieldCollider">
+      <UniqueIdentifier>{9a0ecc96-414b-4b67-b980-59d1e071e6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC">
+      <UniqueIdentifier>{2edbc75d-6c90-461f-9927-70bf3ce10bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\00.Grandfather">
+      <UniqueIdentifier>{4a7e6716-5d46-400c-a291-5f9212dd66b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\03. Snake">
+      <UniqueIdentifier>{6bd60aa0-8aaf-45b8-b974-de7151568971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\03. Scene_Village">
+      <UniqueIdentifier>{57700730-590c-45fe-90a2-a7da6b896b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\04. Scene_Dungeon">
+      <UniqueIdentifier>{02cbc9c3-628c-4a5e-919e-73339c3085b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\05. Scene_Boss1">
+      <UniqueIdentifier>{364c276b-2d67-41ab-9933-db6f2af09c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\06. Scene_Ending">
+      <UniqueIdentifier>{c961fa35-6400-447a-9057-5c21c9817ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\Number">
+      <UniqueIdentifier>{521a2c87-8b35-43d8-8708-9a617f642880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\07. Scene_Store">
+      <UniqueIdentifier>{1373558c-4cb7-457f-8020-f5a061264cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Item\StoreBox">
+      <UniqueIdentifier>{cfe6f684-1884-4ba1-be14-60ab6f87d853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\01. StoreNPC">
+      <UniqueIdentifier>{71834ea9-318b-49e0-953e-d6d8d1a300da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\02. VillageNPC">
+      <UniqueIdentifier>{2d70a0b6-4803-4777-940a-bb412a806d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\02. VillageNPC\00. MiniGame">
+      <UniqueIdentifier>{e08fd20e-fde2-49a9-89da-2cfba43cef70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\02. VillageNPC\01. OldMan">
+      <UniqueIdentifier>{46b647e1-6f42-4c02-9a8e-7a31c0154b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. NPC\02. VillageNPC\02. BallNPC">
+      <UniqueIdentifier>{721f67df-bf0e-49da-8184-56d0ba390274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\08. Scene_Load">
+      <UniqueIdentifier>{cc5637f3-7637-4ca1-92b8-59ddd08052a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\GageBar_Background">
+      <UniqueIdentifier>{401a44a4-d5c3-45c2-8535-cace2e0e85f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI\PlayerUI\GageBar_Background\GageBar">
+      <UniqueIdentifier>{12e7b5eb-afdc-4bdd-b922-6fcef0c4ddf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>03. Design\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Design\05. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHouse.h">
+      <Filter>02. Scene\01. Scene_House</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLogo.h">
+      <Filter>02. Scene\00. Scene_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>03. Design\04. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>03. Design\04. BmpMgr\00. MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneForest.h">
+      <Filter>02. Scene\02. Scene_Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDungeon.h">
+      <Filter>02. Scene\04. Scene_Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBoss1.h">
+      <Filter>02. Scene\05. Scene_Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Design\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Design\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>01. Obj\04. Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Design\01. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>05. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>06. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCeilling.h">
+      <Filter>01. Obj\05. Ceilling</Filter>
+    </ClInclude>
+    <ClInclude Include="Inven.h">
+      <Filter>01. Obj\07. UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>01. Obj\07. UI\Inventory\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenCursor.h">
+      <Filter>01. Obj\07. UI\Inventory\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>01. Obj\03. Item\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>01. Obj\03. Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>01. Obj\07. UI\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AButton.h">
+      <Filter>01. Obj\07. UI\PlayerUI\AButton</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWeapon.h">
+      <Filter>01. Obj\07. UI\PlayerUI\UIWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BButton.h">
+      <Filter>01. Obj\07. UI\PlayerUI\BButton</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_HP.h">
+      <Filter>01. Obj\07. UI\PlayerUI\UI_Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>01. Obj\01. Monster\00. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCollider.h">
+      <Filter>01. Obj\06. ItemCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeBall.h">
+      <Filter>01. Obj\01. Monster\00. Boss\00.EyeBall</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBall.h">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall\00. Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeShield.h">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall\01. EyeShield</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Design\06. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01. Obj\08. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFireBall.h">
+      <Filter>01. Obj\01. Monster\00. Boss\02. FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>01. Obj\09. MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>01. Obj\03. Item\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>01. Obj\03. Item\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyRock.h">
+      <Filter>01. Obj\03. Item\KeyRock</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyTile.h">
+      <Filter>01. Obj\03. Item\CopyTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyPlayer.h">
+      <Filter>01. Obj\03. Item\CopyPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingRock.h">
+      <Filter>01. Obj\03. Item\MovingRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>01. Obj\03. Item\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingFloor.h">
+      <Filter>01. Obj\03. Item\MovingFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonMonster.h">
+      <Filter>01. Obj\01. Monster\01. Dungeon_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>01. Obj\00. Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Brazier.h">
+      <Filter>01. Obj\03. Item\Brazier</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonDoor.h">
+      <Filter>01. Obj\03. Item\DungeonDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="SieldMonster.h">
+      <Filter>01. Obj\01. Monster\02. ShieldMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldCollider.h">
+      <Filter>01. Obj\01. Monster\02. ShieldMonster\ShieldCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>01. Obj\10. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcGrandfather.h">
+      <Filter>01. Obj\10. NPC\00.Grandfather</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneVillage.h">
+      <Filter>02. Scene\03. Scene_Village</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>01. Obj\07. UI\PlayerUI\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStore.h">
+      <Filter>02. Scene\07. Scene_Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreBox.h">
+      <Filter>01. Obj\03. Item\StoreBox</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreNPC.h">
+      <Filter>01. Obj\10. NPC\01. StoreNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>01. Obj\01. Monster\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnding.h">
+      <Filter>02. Scene\06. Scene_Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameNPC.h">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\00. MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="OldManNPC.h">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\01. OldMan</Filter>
+    </ClInclude>
+    <ClInclude Include="BallNPC.h">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\02. BallNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading.h">
+      <Filter>02. Scene\08. Scene_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="GageBar.h">
+      <Filter>01. Obj\07. UI\PlayerUI\GageBar_Background\GageBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GageBarBack.h">
+      <Filter>01. Obj\07. UI\PlayerUI\GageBar_Background</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Design\05. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHouse.cpp">
+      <Filter>02. Scene\01. Scene_House</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLogo.cpp">
+      <Filter>02. Scene\00. Scene_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>03. Design\04. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>03. Design\04. BmpMgr\00. MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneForest.cpp">
+      <Filter>02. Scene\02. Scene_Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDungeon.cpp">
+      <Filter>02. Scene\04. Scene_Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBoss1.cpp">
+      <Filter>02. Scene\05. Scene_Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Design\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Design\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>01. Obj\04. Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Design\01. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>05. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>06. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CCeilling.cpp">
+      <Filter>01. Obj\05. Ceilling</Filter>
+    </ClCompile>
+    <ClCompile Include="Inven.cpp">
+      <Filter>01. Obj\07. UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>01. Obj\07. UI\Inventory\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenCursor.cpp">
+      <Filter>01. Obj\07. UI\Inventory\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>01. Obj\03. Item\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>01. Obj\03. Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AButton.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\AButton</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWeapon.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\UIWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BButton.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\BButton</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_HP.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\UI_Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCollider.cpp">
+      <Filter>01. Obj\06. ItemCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="EyeBall.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss\00.EyeBall</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBall.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall\00. Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="EyeShield.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss\01. LaserBall\01. EyeShield</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Design\06. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01. Obj\08. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFireBall.cpp">
+      <Filter>01. Obj\01. Monster\00. Boss\02. FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>01. Obj\09. MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>01. Obj\03. Item\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>01. Obj\03. Item\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyRock.cpp">
+      <Filter>01. Obj\03. Item\KeyRock</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyTile.cpp">
+      <Filter>01. Obj\03. Item\CopyTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyPlayer.cpp">
+      <Filter>01. Obj\03. Item\CopyPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingRock.cpp">
+      <Filter>01. Obj\03. Item\MovingRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>01. Obj\03. Item\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingFloor.cpp">
+      <Filter>01. Obj\03. Item\MovingFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonMonster.cpp">
+      <Filter>01. Obj\01. Monster\01. Dungeon_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>01. Obj\00. Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Brazier.cpp">
+      <Filter>01. Obj\03. Item\Brazier</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonDoor.cpp">
+      <Filter>01. Obj\03. Item\DungeonDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="SieldMonster.cpp">
+      <Filter>01. Obj\01. Monster\02. ShieldMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldCollider.cpp">
+      <Filter>01. Obj\01. Monster\02. ShieldMonster\ShieldCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>01. Obj\10. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcGrandfather.cpp">
+      <Filter>01. Obj\10. NPC\00.Grandfather</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneVillage.cpp">
+      <Filter>02. Scene\03. Scene_Village</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStore.cpp">
+      <Filter>02. Scene\07. Scene_Store</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreBox.cpp">
+      <Filter>01. Obj\03. Item\StoreBox</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreNPC.cpp">
+      <Filter>01. Obj\10. NPC\01. StoreNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>01. Obj\01. Monster\03. Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnding.cpp">
+      <Filter>02. Scene\06. Scene_Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameNPC.cpp">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\00. MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="OldManNPC.cpp">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\01. OldMan</Filter>
+    </ClCompile>
+    <ClCompile Include="BallNPC.cpp">
+      <Filter>01. Obj\10. NPC\02. VillageNPC\02. BallNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading.cpp">
+      <Filter>02. Scene\08. Scene_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="GageBar.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\GageBar_Background\GageBar</Filter>
+    </ClCompile>
+    <ClCompile Include="GageBarBack.cpp">
+      <Filter>01. Obj\07. UI\PlayerUI\GageBar_Background</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
